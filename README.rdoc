@@ -1,3 +1,17 @@
+<b>This project is retired.</b>
+
+String::Mask is now part of {Ruby Facets}[https://github.com/rubyworks/facets],
+since Facets 4.2.0 (2026-11): <tt>require 'facets/string/mask'</tt> for
+<tt>String::Mask</tt> and <tt>String#mask</tt>, with the same operators.
+Facets' version differs in a few ways: masks of different lengths
+combine, a mask is equal only to another mask (compare <tt>mask.to_s</tt>
+with a string), and it works with frozen string literals.
+
+This repository preserves Strmask, last released as 0.3.2 in 2011. It is
+no longer maintained.
+
+---
+
 = String::Mask
 
 {Homepage}[http://rubyworks.github.com/strmask] |
